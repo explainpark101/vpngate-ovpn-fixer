@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "author": "undefined",
+  "name": "VPN GATE OVPN Fixer",
+  "version": "1.0",
+  "description": "Updates VPN Gate ovpn file",
+  "content_scripts": [
+    {
+      "js": ["main.js"],
+      "matches": ["https://www.vpngate.net/*"]
+    }
+  ]
+}
